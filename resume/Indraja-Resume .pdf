@@ -47355,64 +47355,25 @@ endobj
      /MediaBox [ 0.000000 0.000000 2480.000000 3508.000000 ]
      /Resources 1093 0 R
      /Contents 1094 0 R
-     /Parent 1101 0 R
+     /Parent 1097 0 R
   >>
 endobj
 
 1097 0 obj
-  << >>
-endobj
-
-1098 0 obj
-  << /Length 1099 0 R >>
-stream
-/DeviceRGB CS
-/DeviceRGB cs
-q
-1.000000 0.000000 -0.000000 1.000000 0.000000 0.000000 cm
-1.000000 1.000000 1.000000 scn
-0.000000 842.000000 m
-595.000000 842.000000 l
-595.000000 0.000000 l
-0.000000 0.000000 l
-0.000000 842.000000 l
-h
-f
-n
-Q
-
-endstream
-endobj
-
-1099 0 obj
-  237
-endobj
-
-1100 0 obj
-  << /Annots []
-     /Type /Page
-     /MediaBox [ 0.000000 0.000000 595.000000 842.000000 ]
-     /Resources 1097 0 R
-     /Contents 1098 0 R
-     /Parent 1101 0 R
-  >>
-endobj
-
-1101 0 obj
-  << /Kids [ 1096 0 R 1100 0 R ]
-     /Count 2
+  << /Kids [ 1096 0 R ]
+     /Count 1
      /Type /Pages
   >>
 endobj
 
-1102 0 obj
-  << /Pages 1101 0 R
+1098 0 obj
+  << /Pages 1097 0 R
      /Type /Catalog
   >>
 endobj
 
 xref
-0 1103
+0 1099
 0000000000 65535 f
 0000000010 00000 n
 0000000116 00000 n
@@ -48511,16 +48472,12 @@ xref
 0001854467 00000 n
 0001854491 00000 n
 0001854680 00000 n
-0001854707 00000 n
-0001855006 00000 n
-0001855031 00000 n
-0001855218 00000 n
-0001855307 00000 n
+0001854760 00000 n
 trailer
 << /ID [ (some) (id) ]
-   /Root 1102 0 R
-   /Size 1103
+   /Root 1098 0 R
+   /Size 1099
 >>
 startxref
-1855372
+1854825
 %%EOF
