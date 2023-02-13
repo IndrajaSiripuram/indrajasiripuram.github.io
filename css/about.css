@@ -37,6 +37,9 @@ padding: 3% 0 0% 0;
     right: 0;
     font-size: 25px;
  }
+.avatar-img{
+    text-align: center;
+}
  .avatar-img img{
   width: 80%;
 /*
