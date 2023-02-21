@@ -66,6 +66,9 @@ h1, h2, h3, h4{
     width:70%;
     
 }
+.justify{
+    text-align: justify;
+}
 /*      <footer styles>*/
 
            .sicons a{
