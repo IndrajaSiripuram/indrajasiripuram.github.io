@@ -4,7 +4,7 @@
  #hero {
     width: 100%;
     height: 85vh;
-    background: url(../images/musician/musician-banner.png) center;
+    background: url(../images/musician/musician-banner.svg) center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
