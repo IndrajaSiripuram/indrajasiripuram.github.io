@@ -25,7 +25,13 @@ h1, h2, h3, h4{
          font-family: sfpro;
           src:url("../fonts/sfpro/sfpro-r.ttf");   
       }
-
+     @font-face{
+         font-family: sfprob;
+          src:url("../fonts/sfpro/sfpro-b.ttf");   
+      }
+b{
+  font-family: sfprob;  
+}
 /*header styles*/
 
         .nav-link{
