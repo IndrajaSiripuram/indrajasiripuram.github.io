@@ -1,12 +1,13 @@
 html{
     overflow-x: hidden !important;
 }      
-h1, h2, h3, h4{
+h1, h2, h3, h4, h5, h6{
           font-family: halant;
       }
      
       p{
           font-family: sfpro;
+          font-size: 20px;
       }
 
             @font-face{
@@ -64,6 +65,9 @@ b{
     margin-left:3rem;
 }
 @media only screen and (max-width: 600px) {
+    p{
+        font-size: 16px;
+    }
     .navbar-brand{
     margin-left:0rem !important;
 }
