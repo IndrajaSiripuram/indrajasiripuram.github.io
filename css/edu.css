@@ -84,6 +84,7 @@ box-shadow: 0px 2px 5px #0056D266;
       .Persona img, .Digital-Wireframes img, .User img, .Low-fidelity img, .Paper img{
           width: 100%;
       }
+/*
      .prev-next a:hover{
    text-decoration: none; 
 }
@@ -98,6 +99,7 @@ box-shadow: 0px 2px 5px #0056D266;
       .next{
           background-color: #E61E4D;
       }
+*/
       .t-b{
           margin-top: 2rem;
       }
@@ -127,11 +129,13 @@ box-shadow: 0px 2px 5px #0056D266;
           .round-2{
              margin-top:3rem;
           }
+/*
           .prev h3, .next h3{
               font-size: 1rem; 
           }
            
            .prev, .next{  
                padding: 30px;}
+*/
       }
      

@@ -72,6 +72,7 @@ box-shadow: 0px 3px 6px #999999;
           width: 100%;
       }
      
+/*
       .prev, .next{  
           color:#fff;
           padding: 40px 0px 40px 0;
@@ -83,6 +84,7 @@ box-shadow: 0px 3px 6px #999999;
       .prev{
         background-color: #FC840A;  
       }
+*/
 .m-a{
     margin: auto;
 }
