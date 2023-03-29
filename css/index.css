@@ -4,7 +4,9 @@
 .title h5{
   color: #31ADE7;  
 }
-
+h5{
+    color: #32ade7;
+}
 .project{
     margin: auto;
 }
@@ -13,6 +15,17 @@
 }
 .iw img{
   width: 100%;  
+}
+.musician{
+    background-color: #dc3545;
+    padding: 15px;
+    border-radius: 15px;
+    color: #fff;
+}
+.muscican:hover{
+    text-decoration: none;
+    color:#fff;
+    background-color: #dc3545;
 }
 @media only screen and (max-width: 600px) {
    
