@@ -17,15 +17,27 @@ h5{
   width: 100%;  
 }
 .musician{
-    background-color: #dc3545;
+    background-color: #cd0b0b;
     padding: 15px;
     border-radius: 15px;
     color: #fff;
 }
-.muscican:hover{
-    text-decoration: none;
-    color:#fff;
-    background-color: #dc3545;
+
+.musician:hover{
+    background-color: #930c19;
+    text-decoration: none !important;
+    color:#fff !important;
+}
+.adopt{
+  background-color: #fc8408;
+    padding: 15px;
+    border-radius: 15px;
+    color: #fff;   
+}
+.adopt:hover{
+    background-color: #c56706;
+    text-decoration: none !important;
+    color:#fff !important;
 }
 @media only screen and (max-width: 600px) {
    
