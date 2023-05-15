@@ -16,7 +16,7 @@ h5{
 .iw img{
   width: 100%;  
 }
-.musician{
+.viewcase{
     background-color:  #31ADE7;
     padding: 15px;
     border-radius: 15px;
@@ -24,11 +24,12 @@ h5{
    
 }
 
-.musician:hover{
-    background-color: #930c19;
+.viewcase:hover{
+    background-color: #1398d6;
     text-decoration: none !important;
     color:#fff !important;
 }
+/*
 .adopt{
   background-color:  #31ADE7;
     padding: 15px;
@@ -40,6 +41,7 @@ h5{
     text-decoration: none !important;
     color:#fff !important;
 }
+*/
 @media only screen and (max-width: 980px) {
     .project{
         margin: 30px;
