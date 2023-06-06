@@ -1,16 +1,26 @@
 .active{ 
     color: #31ADE7 !important;
 }
+.responsive{
+    text-align: center;
+    background: #000;
+    border-radius: 20px;
+}
+.responsive img{
+   width: 30%;
+}
 .d-gif, .hiring{
     background-color: #000;
     text-align: center;
     border-radius: 20px;
 }
 .d-gif img,  .hiring img{
-    width:40%;
+    width:100%;
 }
-    
-.musician h3{
+ .Paper img{
+  border-radius: 20px;  
+}    
+.adopt h3{
    color:  #999999;
     margin-bottom: 1.5rem;
 }
@@ -24,14 +34,7 @@ border-radius: 25px;
 box-shadow: 0px 3px 6px #999999;
     text-align: center;
 }
-/*
-.problems, .solution{
-    position: relative;
-background-color: #fff;
-border-radius: 25px;
-box-shadow: 0px 2px 5px #E61E4D66;
-}
-*/
+
 
 .problems .problems-icon, .solution .solution-icon {
   position: absolute;
@@ -48,27 +51,7 @@ box-shadow: 0px 2px 5px #E61E4D66;
     background-color: #fff;
     color: #000;
     border-radius: 25px;
-/*    padding: 25px;*/
-/*    text-align: center;*/
-/*box-shadow: 0px 2px 5px #999999;*/
 }
-/*
-.round1, .round2{
-    margin-top: 40px;
-    background-color: #fff;
-    color: #000;
-    border-radius: 25px;
-    padding: 25px;
-box-shadow: 0px 2px 5px #E61E4D66;
-}
-      .round1 div, .round2 div{
-          align-items: center;
-          padding-bottom: 14px;
-      }  
-      .round1 p, .round2 p{
-          padding-left: 14px;
-      }
-*/
       
 
 .Accessibility-box{
@@ -107,11 +90,7 @@ box-shadow: 0px 2px 5px #E61E4D66;
 }
 
 /*
-.prev:hover{
-    background-color:#FC952C;
-}
-*/
-/*
+
       .next{
           background-color: #0056D2;
       }
@@ -131,13 +110,10 @@ box-shadow: 0px 2px 5px #E61E4D66;
           font-size: 14px;
       }
 */
+
+/*
+    
       @media only screen and (max-width: 600px) {
-          #hero{
-              height: 50vh;
-          }
-          .musician{
-              padding: 0 20px 0 20px;
-          }
           .TimeTaking{
               margin-bottom: 20px;
           }
@@ -147,13 +123,11 @@ box-shadow: 0px 2px 5px #E61E4D66;
           .round-2{
              margin-top:3rem;
           }
-/*
           .prev h3, .next h3{
               font-size: 1rem; 
           }
            
            .prev, .next{  
                padding: 30px;}
-*/
       }
-   
+        */
