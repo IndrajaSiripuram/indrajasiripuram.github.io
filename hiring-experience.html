@@ -1,63 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Hiring experience</title>
+  <title>Preboarding</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-      <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-    <link rel="stylesheet" href="css/adopt.css">
-    <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="css/cubeseed.css">
+  <link rel="stylesheet" href="css/common.css">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
-    
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-<!--
-    <script src="js/wow.js"></script>
-              <script>
-              new WOW().init();
-              </script>
--->
+  <style>
+    body {
+      position: relative;
+      min-height: 100vh;
+      margin: 0;
+/*      background: #f0f8ff;*/
+    }
+      .intro{
+         text-align: left; 
+      }
+    #container {
+      display: none;
+/*      background-color: #f0f8ff;*/
+      text-align: center;
+    }
+
+ #pswd {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      background: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+/*
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      z-index: 2;
+*/
+      }
+
+    #pswd input {
+      margin-bottom: 10px;
+    }
+
+    #overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+/*
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+*/
+    }
+      hr.solid {
+  border-top: 1px solid #bbb;
+}
+      .flow{
+          margin-top: 30px;
+          margin-bottom:30px;
+      }
+      li{
+          font-size: 18px;
+      }
+      .row{
+          padding-top: 30px;
+          padding-bottom: 20px;
+      }
+      .view{
+          background-color: #9d5d06;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+      }
+      .view a{
+          color:#fff;
+      }
+  </style>
 </head>
 <body>
+  <div id="overlay"></div>
+
+  <form id="pswd">
+<!--    <button class="close-btn" onclick="redirectToHome()" aria-label="Close">×</button>-->
+    <h2>Enter Password</h2>
+    <input type="password" id="validate" placeholder="Enter Password">
+    <button class="submit" type="button" onclick="fun()">Submit</button><br>
+    <a href="index.html">Go back</a>
+  </form>
+
+  <div id="container">
+    <!-- Preboarding Page Content -->
     <nav class="navbar navbar-expand-sm bg-white navbar-white">
-        <a class="navbar-brand ml-5 " href="index.html"><img src="./images/logo/logo.svg" alt="Indraja siripuram"></a>
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"><img src="./images/menu.png"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">Work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://docs.google.com/document/d/1Cs6lCZZVdaWqUlk5N8bOmzTTq_7bt6Y7nEQmvonJrTA/edit?usp=sharing" target="_blank">Resume</a>
-            </li>  
-               <li class="nav-item">
-              <a class="nav-link" href="https://www.linkedin.com/in/indrajasiripuram/" target="_blank"><img src="images/home/in.svg"></a>
-            </li> 
-          </ul>
-        </div>  
-      </nav>
+      <a class="navbar-brand ml-5 " href="index.html">
+        <img src="./images/logo/logo.svg" alt="Indraja siripuram">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"><img src="./images/menu.png"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Work</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://docs.google.com/document/d/1Cs6lCZZVdaWqUlk5N8bOmzTTq_7bt6Y7nEQmvonJrTA/edit?usp=sharing" target="_blank">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/indrajasiripuram/" target="_blank"><img src="images/home/in.svg"></a></li>
+        </ul>
+      </div>
+    </nav>
   
 
 <section>
-    <div class="container adopt mt-5">
+    <div class="container cubeseed mt-5">
 
-       
-
-       
-       
-    </div>
-
+<!--
+    <div class="row text-center  wow animate__fadeInUp" data-wow-duration="2s">
+          <div class="col-lg-12">
+        <h6 class="mb-0">UX Designer</h6>
+       <img src="images/cubeseed/cubeseed-logo.png">
+              <p>Designed platform connecting farmers with investors, aiding in their search for financial support through a user-friendly app and website.</p>
+        <p>Designing app and website to eliminate middlemen, establish direct access across the entire value chain and promote affordability.</p>
+        </div> 
+        </div>
+-->
+        <div class="row banner text-center wow animate__fadeInUp" data-wow-duration="2s">
+            <div class="col-lg-12">
+            <img  src="./images/Preboarding/pre-banner.png" alt="cubeseed">
+            </div>
+        </div> 
+<div class="row intro">
+    <div class="col-lg-12 col-12">
     
+             <h3>Walmart Global Tech Preboarding</h3>
+        <p>The Preboarding application is designed to create a seamless and engaging experience for new hires before their first day. It provides them with important resources, introductions, and tasks to complete, helping them feel welcomed and prepared. Through personalized content, checklists, and communication tools, the application ensures that new team members are informed, connected, and ready to start their journey with confidence and ease.</p>
+        <p><b>Project type:</b>End-to-end Pre-boarding mobile and web application</p>
+        <p><b>Role:</b>UX/UI designer </p>
+        <p><b>Tools:</b>Figma, Figjam, Mural Board</p>
+        <p><b>Duration:</b>Q4 2023</p>
 
+
+ 
+
+        </div>
+
+    </div>
+        <hr class="solid">
+        <div class="row intro flow">
+            <div class="col-lg-3 col-12"><h4>1. Problem</h4></div>
+            <div class="col-lg-3 col-12"><h4>2. Research & Journey Mapping</h4></div>
+            <div class="col-lg-3 col-12">   <h4>3. Design</h4></div>
+         <div class="col-lg-3 col-12"> <h4>4. Iteration</h4>
+             
+             
+          
+            
+            </div>
+        </div>
+        <div class="row intro">
+    <div class="col-lg-12 col-12">
+    
+             <h3>1.Problem</h3>
+        <p>The existing preboarding process faced several challenges, including:</p>
+        <li>Emails getting lost in hiring managers' inboxes.</li>
+        <li>Delays caused by incomplete information (e.g., missing SSNs).</li>
+        <li>Manual processes for equipment requests, mapping user IDs, and assigning software.</li>
+        <li>Inconsistent onboarding for remote associates, causing delays in equipment delivery.</li>
+        <li>Lack of a dedicated support channel for new hires during preboarding, leaving them feeling isolated or uncertain about next steps.</li>
+        <p>These inefficiencies resulted in a fragmented experience for hiring managers and new hires, impacting productivity and satisfaction.</p>
+        </div>
+
+    </div>   
+        <div class="row intro">
+    <div class="col-lg-12 col-12">
+    
+             <h3>2.Research & Journey Mapping</h3>
+        <p>For the Preboarding app, we conducted research with multiple new hires and associates, deeply empathizing with their pain points. We prioritized a user-centered approach, keeping their needs at the forefront throughout the design process. By gathering continuous feedback, we ensured that the experience is intuitive, engaging, and tailored to effectively address user challenges.</p>
+        <li>Emails getting lost in hiring managers' inboxes.</li>
+        <li>Delays caused by incomplete information (e.g., missing SSNs).</li>
+        <li>Manual processes for equipment requests, mapping user IDs, and assigning software.</li>
+        <li>Inconsistent onboarding for remote associates, causing delays in equipment delivery.</li>
+        <li>Lack of a dedicated support channel for new hires during preboarding, leaving them feeling isolated or uncertain about next steps.</li>
+        <p>These inefficiencies resulted in a fragmented experience for hiring managers and new hires, impacting productivity and satisfaction.</p>
+        </div>
+               <div class="col-lg-12 col-12">
+<h5> Opportunities Identified:</h5>
+           
+<li>Automating ServiceNow ticket submissions.</li>
+<li>Making equipment requirements mandatory upfront.</li>
+<li>Providing stakeholders with end-to-end visibility via a dashboard.</li>
+<li>Including a dedicated support channel for new hires.</li>
+            </div>
+            <div class="col-lg-12 col-12">
+                <img style="width:50%" src="images/Preboarding/Onboarding%20Experience%20Map.png">
+            </div>
+    </div>
+         <div class="row intro">
+    <div class="col-lg-12 col-12">
+    
+             <h3>3.Design</h3>
+        <h5>New Features</h5>
+        </div>
+            
+    </div>
+          <div class="row"> 
+            <div class="col-lg-12 col-12">
+                <img style="width: 100%" src="images/Preboarding/design-1.png">
+                 </div>
+    </div>
+        <div class="row">
+         <div class="col-lg-12 col-12">
+                <img style="width: 100%" src="images/Preboarding/i-9.png">
+                 </div>
+            <div class="col-lg-12 col-12">
+                <button class="view">  <a href="https://www.figma.com/proto/FbIFu80D87dQmiO027Fmm3/IEOB---Preboarding-for-Campus---v2.0?page-id=15548%3A91734&node-id=15548-92952&viewport=570%2C232%2C0.03&t=RseTCHdTeR41PHbZ-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=15548%3A92952&show-proto-sidebar=1"> View Preboarding Prototype</a> 
+                
+                </button>
+         
+            </div>
+         
+        </div>
+     <div class="row">
+           <div class="col-lg-12 col-12" style="text-align: left">
+         <h3>Key Outcomes</h3>
+            <p>The redesigned preboarding application delivered measurable improvements:</p>
+            <p><b>Efficiency Gains:</b> Automation reduced manual tasks, allowing hiring managers to focus on strategic activities.</p>
+            <p><b>Improved Onboarding:</b> Remote associates received equipment on time, enhancing their first-day experience.</p>
+            <p><b>Enhanced Visibility:</b> Dashboards provided stakeholders with real-time insights, reducing bottlenecks.</p>
+            <p><b>New Hire Support:</b> The onboarding buddy system reduced uncertainty for new hires, increasing their confidence and preparedness.</p>
+            <p><b>Positive Feedback: </b>Hiring managers praised the intuitive interface and time-saving features, while new hires appreciated the personalized support.</p>
+         </div>
+        </div> 
+        <div class="row">
+           <div class="col-lg-12 col-12" style="text-align: left">
+         <h3>Challenges and Learnings</h3>
+            <p>One challenge was balancing automation with flexibility for edge cases (e.g., high-end equipment requests). Additionally, ensuring the onboarding buddy system had clear guidelines and workflows required cross-functional collaboration.</p>
+           
+         </div>
+        </div>   
+        <div class="row">
+           <div class="col-lg-12 col-12" style="text-align: left">
+         <h3>Future Plans</h3>
+                    <p>TWe envision expanding the application to include:</p>
+               <p>Integration with orientation scheduling tools.</p>
+               <p>Advanced analytics for tracking preboarding performance metrics.</p>
+               <p>Multi-language support for global hiring.</p>
+               <p>Enhanced onboarding buddy features, such as real-time collaboration tools and guided tours.</p>
+           
+         </div>
+        </div>
+        <div class="row">
+           <div class="col-lg-12 col-12" style="text-align: left">
+         <h3>Conclusion</h3>
+            <p>The preboarding application demonstrates the power of user-centered design in solving complex challenges. By addressing hiring managers’ pain points and creating a seamless experience, we transformed preboarding into a streamlined, efficient, and satisfying process. The addition of the onboarding buddy feature further enhances the experience by offering new hires direct support, making them feel more connected and confident as they begin their journey with the company</p>
+           
+         </div>
+        </div> 
     
              <div class="socialicons text-center mt-5 mb-5 wow animate__fadeInUp" data-wow-duration="2s">
         <div class="text-center">
@@ -77,8 +277,37 @@
         </div>
 
       </div> 
-</section>
+    </div>
+        </section>
+    </div>
 
+ <script>
+    function fun() {
+      const inputPswd = document.getElementById("validate").value;
+      const correctPswd = "2020";
+      if (inputPswd === correctPswd) {
+        document.getElementById("container").style.display = "block";
+        document.getElementById("pswd").style.display = "none";
+        document.getElementById("overlay").style.display = "none";
+      } else {
+        alert("Incorrect password!");
+      }
+    }
 
+    // Add keypress listener for Enter key
+    document.getElementById("validate").addEventListener("keypress", function(event) {
+      if (event.key === "Enter") {
+        event.preventDefault(); // Prevent form submission
+        fun(); // Trigger submit function
+      }
+    });
+
+    // Redirect to home page
+    function redirectToHome() {
+      window.location.href = "index.html"; // Replace with the actual home page URL
+    }
+  </script>
 </body>
 </html>
+    
+    
