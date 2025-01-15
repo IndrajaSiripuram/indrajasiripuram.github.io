@@ -1,5 +1,5 @@
 .active{ 
-    color: #31ADE7 !important;
+    color: #9d5c06 !important;
 } 
 .about-us-section{
 /*background-color: #A1CBDE;*/
@@ -11,15 +11,16 @@ padding: 3% 0 0% 0;
           font-size: 24px;
       }
 .about-us-section a{
-    color: #31ADE7 !important;
+    color: #9d5c06 !important;
 }
 .about-us-section a:hover{
-    color: #0e98d9 !important;
+    color: #6b3f05 !important;
     text-decoration: none;
 }
  .about-titile{
   background-color: #ffffff;;
-    color: #31ADE7;
+/*    color: #31ADE7;*/
+     color: #9d5c06;
     width: 50%;
     text-align: right;
     padding: 20px;
@@ -30,7 +31,8 @@ padding: 3% 0 0% 0;
       }
  .about-titile-two{
   background-color: #ffffff;
-    color: #31ADE7;
+/*    color: #31ADE7;*/
+    color: #9d5c06;
     width: 45%;
     padding: 30px;
     position: absolute;

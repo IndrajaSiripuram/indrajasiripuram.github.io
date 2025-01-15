@@ -1,5 +1,5 @@
 .active{ 
-    color: #31ADE7 !important;
+    color: #9d5c06 !important;
 }
 .responsive{
     text-align: center;
@@ -21,11 +21,11 @@
   border-radius: 20px;  
 }    
 .cubeseed h3{
-   color:  #31ADE7;
+   color:  #9d5c06;
 /*    margin-bottom: 1.5rem;*/
 }
 .overview h3{
-    color:#31ADE7;
+    color:#9d5c06;
 }
 
 .problems, .solution{
